@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adm.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+    <script src="/app.js" defer></script>
+
+    <title>Administração de Registros - Sistema de Ponto</title>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="formCad.html">Cadastro</a></li>
+                <li><a href="formConsulta.html">Consultar</a></li>
+                <li><a href="formCadPonto.html">Ponto</a></li>
+                <li><a href="adm.html">Ponto</a></li>
+                
+    
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Administração de Registros</h1>
+
+    <main class="container">
+
+        <h2>Registros de Ponto</h2>
+
+        <!-- Lista de Registros -->
+
+        <div id="listaRegistros">
+
+            <!-- Os registros serão adicionados dinamicamente aqui -->
+        </div>
+    </main>
+
+     <footer class="main_footer container">
+    
+        <div class="main_footer_copy">
+           
+            <div class="content">
+                <p class="t-copy-footer"> <b>Copyright © Controle de Ponto</b> - 2024, Todos os Direitos Reservados.</p>
+                
+            </div>
+        </div>
+    
+    </footer>
+</body>
+</html>

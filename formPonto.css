@@ -1,0 +1,208 @@
+/* Reset de margens e paddings */
+body, ul, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do menu horizontal */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos do título */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+form label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos do botão de captura de imagem e registrar ponto */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos do contêiner de imagem */
+#imageContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#capturedImage {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos do display de localização */
+#locationDisplay {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#locationDisplay p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Estilos da lista de registros */
+ul#registrosAnteriores {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul#registrosAnteriores li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos do rodapé */
+footer.main_footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .main_footer_copy {
+    margin-top: 10px;
+}
+
+footer .t-copy-footer {
+    margin-bottom: 5px;
+}
+
+footer .by a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-size: 14px;
+    }
+  
+    h1 {
+        font-size: 18px;
+    }
+  
+    form {
+        padding: 15px;
+    }
+  
+    button {
+        padding: 8px 10px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    body {
+        margin: 20px;
+        font-size: 16px;
+    }
+  
+    h1 {
+        font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    body {
+        margin: 30px;
+        font-size: 18px;
+    }
+  
+    h1 {
+        font-size: 24px;
+    }
+  }
+  

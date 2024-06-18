@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formPonto.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+    <script src="/app.js" defer></script>
+
+    <title>Ponto</title>
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="formCad.html">Cadastro</a></li>
+            <li><a href="consultaRegistros.html">Consultar</a></li>
+            <li><a href="registroPonto.html">Ponto</a></li>
+            
+
+        </ul>
+    </nav>
+
+    <h1>Registro de Ponto</h1>
+    <form id="registroPontoForm">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" readonly><br>
+
+        <label for="dataHora">Data e Hora:</label>
+        <input type="text" id="dataHora" name="dataHora" readonly><br>
+
+        <label for="imagem">Capturar Imagem:</label>
+        <input type="file" accept="image/*" capture="camera" id="imagem" name="imagem"><br>
+
+        <label for="localizacao">Localização:</label>
+        <input type="text" id="localizacao" name="localizacao" readonly><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" readonly><br>
+
+        <button type="submit">Registrar Ponto</button>
+    </form>
+
+    <footer class="main_footer container">
+    
+      <div class="main_footer_copy">
+         
+          <div class="content">
+              <p class="t-copy-footer"> <b>Copyright © Controle de Ponto</b> - 2024, Todos os Direitos Reservados.</p>
+              
+          </div>
+      </div>
+  
+  </footer>
+</body>
+</html>

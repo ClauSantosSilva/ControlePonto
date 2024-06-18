@@ -1,0 +1,167 @@
+/* Reset de margens e paddings */
+body, ul, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Espaçamento horizontal entre itens */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px; /* Adiciona espaço clicável ao redor do texto */
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+/* Estilo para o formulário */
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos do rodapé */
+.main_footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o rodapé esteja acima de outros elementos */
+}
+
+.main_footer_copy {
+    margin: 10px 0;
+}
+
+.t-copy-footer {
+    margin-bottom: 10px;
+}
+
+.by a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        padding: 8px 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Exibe os itens do menu em coluna */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 901px) {
+    body {
+        margin: 30px;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

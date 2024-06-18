@@ -1,0 +1,72 @@
+/* Reset de margens e paddings */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para o formulário de login */
+#loginForm {
+    width: 300px;
+    margin: 0 auto; /* Centraliza o formulário na horizontal */
+    text-align: center; /* Centraliza os elementos internos */
+}
+
+#loginForm label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+#loginForm input[type="email"],
+#loginForm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que a largura inclua o preenchimento e a borda */
+}
+
+#loginForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginForm button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos do rodapé */
+.main_footer {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 10px 0; /* Espaçamento interno */
+    position: fixed; /* Posicionamento fixo */
+    bottom: 0; /* Fixa o rodapé no fundo da página */
+    width: 100%; /* Largura total */
+}
+
+.main_footer_copy {
+    margin-top: 20px; /* Margem superior */
+}
+
+.t-copy-footer {
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.by a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Removendo sublinhado */
+}
